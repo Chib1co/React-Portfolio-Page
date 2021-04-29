@@ -16,7 +16,7 @@ class Aboutme extends React.Component {
 <Container fluid className="ml-10">
 <Bubble>
             <Row className="header-img">
-                <HeaderHero backgroundImage= {'/images/surf-me.jpg'}/>
+                <HeaderHero backgroundImage= {process.env.PUBLIC_URL + '/images/surf-me.jpg'}/>
                 
             </Row>
 
