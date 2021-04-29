@@ -1,0 +1,120 @@
+/*image garally */
+.card{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px auto;
+    margin-left: 10px auto;
+}
+
+img {
+    /* padding: 20px; */
+    width: 100vw;
+    height: 50vh;
+
+}
+#portfolios {
+    margin: 0 auto;
+}
+
+.link-btns {
+    align-items: center;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#githubLink, #app-link{
+    border: #111 2px solid;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    align-items: center;
+    color: #111111;
+    /* padding: 20px; */
+}
+
+.btn-link:hover{
+    color: blue;
+}
+
+.repo-title{
+    text-align: center;
+}
+
+
+/* text for the images */
+.text-block {
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   text-align: center;
+  }
+
+.w-100{
+    margin-top: 20px;
+}
+p{
+    font-size: 18px;
+}
+
+
+.link{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color:  #111111;
+}
+
+#github-link{
+    color: #FFEEEE;
+    margin-left: 10px;
+    font-size: 16px;
+  
+}
+#deployed-link{
+    color: #FFEEEE;
+    margin-left: 10px;
+    font-size: 18px;
+   
+}
+
+@media screen and (max-width: 900px) {
+ 
+
+    .card{
+        margin-bottom: 20px;
+    }
+    #menu{
+        background-color:#bbe6f7;
+        padding-right: 20px;
+       
+        }
+    
+    }
+@media screen and (max-width: 480px) {
+
+
+    h4 {
+        font-size: 20px;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+
+    footer{
+        text-align: center;
+        font-size: 24px;
+      }
+      .navbar-text{
+        font-size: 36px;
+      }
+    #menu{
+        background-color:#bbe6f7;
+        padding-right: 20px;
+       
+        }
+}
+
+  

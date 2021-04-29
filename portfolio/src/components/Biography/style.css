@@ -1,0 +1,145 @@
+.first-row{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  h3 {
+      padding: 20px;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+  .hello{
+    text-align: center;
+  }
+  
+  h4 {
+      text-align: center;
+      padding: 20px;
+  }
+  
+  /*biography photo */
+  .img-thumbnail {
+      float: left;
+      margin-left:20px;
+      margin-right: 20px;
+      margin-top: 20px;
+      width: 70%;
+      border-radius: 10;
+      animation-delay: 2s ;
+      
+  }
+  .bg-transparent{
+    background-color: transparent;
+  }
+  
+  .bg-white{
+    background-color: white;
+  }
+
+
+#links{
+    margin-top: 20px;
+    width: 70%;
+    margin-left:20px;
+    margin-right: 20px;
+    color: #111;
+    line-height: -2%;
+}
+.linkhref{
+  color:#111;
+}
+#subcol-links i.link:hover{
+  /* color: rgb(235, 118, 177); */
+  background-color: #b3b6b8;
+}
+ a{
+    color: #111; 
+}
+
+#bootstrap-container {
+  margin: 0 auto;
+  padding: 0;
+  width: 100vw;
+}
+.link{
+  color:#111;
+  font-size: 18px;
+}
+
+.fade{
+  animation: 1s fadeIn forwards;
+}
+#photo-fadein{
+  animation-delay: 1.5s;
+}
+#bio-fadein{
+  animation-delay: 2s;
+}
+#bio-purpose, #about-me {
+  margin-right: 0 auto;
+  margin-left: 0 auto;
+
+}
+.bio-paragragh{
+  font-size: 22px;
+}
+
+@keyframes fadeIn{
+    0%{
+      opacity: 0;
+      transform: scale3d(.75, .75, 1);
+    }
+  
+    70%{
+      opacity: 0;
+      transform: scale3d(.75, .75, 1);
+    }
+  
+    100%{
+      opacity: 1;
+      transform: scale3d(1, 1, 1);
+    }
+  }
+
+
+
+/*media ruqries */
+@media screen and (max-width: 767px) {
+
+
+    body {
+        font-size: 18px;
+    } 
+    #menu{
+      background-color:#bbe6f7;
+      padding-right: 20px;
+     
+      }
+    
+    
+   
+}
+ 
+
+@media screen and (max-width: 480px) {
+
+    #subcol-image{
+           display: flex;
+           
+   
+       }
+
+     #menu{
+     background-color:#bbe6f7;
+     padding-right: 20px;
+    
+     }
+     h4 {
+      font-size: 28px;
+   }
+   p{
+     padding-left: 20px;
+     padding-right: 20px;
+   }
+   
+   }

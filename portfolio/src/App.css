@@ -1,0 +1,8 @@
+.app {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif; /*set font*/
+  font-size: 22px; /*set font size */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
