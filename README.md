@@ -34,6 +34,8 @@ Major framework I used to create this application.
 ## Learning
 
 Using React to update the portfolio page, it was bit confusing but also good practice to understand how to use components.
+My Commit is very low because I initially create the react app to my original portfolio page and worked on it. 
+This is I only created to deploy because I realized I can not deploy again. 
 
 ## Screenshots
 
