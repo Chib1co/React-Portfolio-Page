@@ -23,7 +23,7 @@ export default function Biography(props) {
      <Col lg="6" className="fade" id="photo-fadein">
          <Row id="subrow-image">
              <Col size="col-12" id="subcol-image">
-                 <img src="/images/portlait4.jpg" alt="this is me" className="mx-auto img-thumbnail float-left" id="myphoto"></img>
+                 <img src={process.env.PUBLIC_URL + "/images/portlait4.jpg"} alt="this is me" className="mx-auto img-thumbnail float-left" id="myphoto"></img>
              </Col>
          </Row>
          <Row size="mx-auto ml-lg-0" id="links">

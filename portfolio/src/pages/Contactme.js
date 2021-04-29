@@ -8,7 +8,7 @@ class Contactme extends React.Component {
     render() {
         return (
             // <!--contact form bootstrap-->
-            <Hero backgroundImage={"/images/sean-o-KMn4VEeEPR8-unsplash.jpg"}>
+            <Hero backgroundImage={process.env.PUBLIC_URL + "/images/sean-o-KMn4VEeEPR8-unsplash.jpg"}>
                 <Container>
                 <ContactTitle />
                     <Form />
