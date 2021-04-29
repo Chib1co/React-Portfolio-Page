@@ -9,6 +9,7 @@ export default function Card(props) {
         <div className="card shadow">
           <div className="content-hover">
             <img className="card-img-top img-redirect" src={props.img} alt={props.img_alt}/>
+           
 
           </div>
           <div className="text-block">
