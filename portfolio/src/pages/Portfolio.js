@@ -19,6 +19,15 @@ export default function Portfolio() {
 
         },
         {
+            title: "Be-Kind-To-Yourself project3",
+            desc:  "Creating full stack web application by using node, express, passport, react",
+            img: process.env.PUBLIC_URL + "/images/project3.png",
+            img_alt: "project3",
+            github: "https://github.com/Chib1co/Be-Kind-To-Yourself",
+            // app_link: "https://chib1co.github.io/Covid-Safe-Restaurant/",
+
+        },
+        {
             title: "Note taker",
             desc:  "Using Node.JS express. Simple note taking application. Keep the note, edit and delete. ",
             img: process.env.PUBLIC_URL + "/images/Note_taker.png",
@@ -52,15 +61,6 @@ export default function Portfolio() {
             img_alt: "project1/restaurant otaku",
             github: "https://github.com/Chib1co/Covid-Safe-Restaurant",
             app_link: "https://chib1co.github.io/Covid-Safe-Restaurant/",
-
-        },
-        {
-            title: "Burger",
-            desc:  "Using mysql. ORM and handlebars, express. Adding burger, move to devoured whn you click the button.",
-            img: process.env.PUBLIC_URL + "/images/burger_demoPage.png",
-            img_alt: "burger",
-            github: "https://github.com/Chib1co/Burger",
-            // app_link: "https://chib1co.github.io/Covid-Safe-Restaurant/",
 
         },
 
